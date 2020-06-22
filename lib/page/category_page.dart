@@ -49,7 +49,7 @@ class CategoryPage extends StatelessWidget {
                       RaisedButton(
                         color: Theme.of(context).primaryColor,
                         textTheme: ButtonTextTheme.primary,
-                        child: Text("get請求"),
+                        child: Text("get&post請求"),
                         onPressed: (){
                           Navigator.pushNamed(context, '/getPage');
                         },
@@ -58,9 +58,9 @@ class CategoryPage extends StatelessWidget {
                       RaisedButton(
                         color: Theme.of(context).primaryColor,
                         textTheme: ButtonTextTheme.primary,
-                        child: Text("post請求"),
+                        child: Text("DioHttp第三方請求"),
                         onPressed: (){
-
+                          Navigator.pushNamed(context, '/dioHttp');
                         },
                       ),
                       Divider(),

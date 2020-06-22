@@ -8,6 +8,7 @@ import 'package:flutterbuttom/tabs/form_demo_page.dart';
 import 'package:flutterbuttom/tabs/datepicker_page.dart';
 import 'package:flutterbuttom/tabs/flutter_date_picker.dart';
 import 'package:flutterbuttom/tabs/get_page.dart';
+import 'package:flutterbuttom/tabs/dio_http.dart';
 
 
 final routes = {
@@ -20,6 +21,7 @@ final routes = {
   '/datePicker':(context)=>DatepickerPage(),
   '/flutterDatePicker':(context)=>FlutterDatePickerPage(),
   '/getPage':(context)=>GetPage(),
+  '/dioHttp':(context)=>DioHttp(),
 };
 
 //固定寫法,多個傳參,好維護
